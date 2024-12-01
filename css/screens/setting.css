@@ -1,0 +1,47 @@
+.setting-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 70px 25px;
+}
+.setting-header .setting-header__title {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+/* Setting List */
+.setting__list {
+  padding: 0 10px;
+  margin: 0 15px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.setting__list .setting__list__item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 30px 15px;
+}
+.setting__list .setting__list__item > i {
+  font-size: 25px;
+}
+.setting__list .setting__list__item > span {
+  font-size: 25px;
+  margin-left: 15px;
+}
+/* setting bottom section */
+.setting__bottom {
+  padding: 0 10px;
+  margin: 0 15px;
+}
+.setting__bottom .setting__bottom__list {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 30px 15px;
+}
+.setting__bottom .setting__bottom__list > a > i {
+  font-size: 25px;
+  margin-right: 15px;
+}
+.setting__bottom .setting__bottom__list > a > span {
+  font-size: 25px;
+}

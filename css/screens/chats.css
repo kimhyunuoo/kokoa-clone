@@ -1,0 +1,174 @@
+/* Banner Section */
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -50px;
+}
+.banner .banner__images {
+  width: 95%;
+  height: 100px;
+  background-image: url("/images/bannerImage.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 8px;
+  opacity: 0.8;
+  transition: opacity 0.3s ease-in-out;
+  cursor: pointer;
+}
+.banner .banner__images:hover {
+  opacity: 0.4;
+}
+.banner .banner__images .images__textGroup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 25px;
+  font-weight: 900;
+}
+.banner .banner__images .images__textGroup > div:first-child {
+  margin-top: 40px;
+}
+.banner .banner__badge {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 130px;
+  right: 30px;
+  width: 40px;
+  height: 20px;
+  background-color: #fff;
+  border: 1px solid #000;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.banner .banner__badge > div {
+  font-size: 12px;
+}
+/* Chat / Screen section */
+.screenChat {
+  margin: 0 15px;
+}
+.screenChat .chats-users {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px 30px;
+}
+.screenChat .chats-users .chats-users__image {
+  width: 70px;
+  height: 70px;
+  background-image: url("/images/userImage4.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 30px;
+  margin-left: -20px;
+}
+.screenChat .chats-users .chats-users__info {
+  flex-grow: 1;
+  margin-left: 30px;
+  border-bottom: rgba(0, 0, 0, 0.2);
+}
+.screenChat .chats-users .chats-users__info .chats-users__info__name {
+  margin-bottom: 10px;
+  font-size: 22px;
+  font-weight: 600;
+}
+.screenChat .chats-users .chats-users__info .chats-users__info__text {
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.4);
+}
+.screenChat .chats-users2 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px 30px;
+}
+.screenChat .chats-users2 .chats-users__image {
+  width: 70px;
+  height: 70px;
+  background-image: url("/images/userImage2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 30px;
+  margin-left: -20px;
+}
+.screenChat .chats-users2 .chats-users__info {
+  flex-grow: 1;
+  margin-left: 30px;
+  border-bottom: rgba(0, 0, 0, 0.2);
+}
+.screenChat .chats-users2 .chats-users__info .chats-users__info__name {
+  margin-bottom: 10px;
+  font-size: 22px;
+  font-weight: 600;
+}
+.screenChat .chats-users2 .chats-users__info .chats-users__info__text {
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.4);
+}
+.screenChat .chats-users3 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px 30px 30px;
+}
+.screenChat .chats-users3 .chats-users__image {
+  width: 70px;
+  height: 70px;
+  background-image: url("/images/userImage3.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 30px;
+  margin-left: -20px;
+}
+.screenChat .chats-users3 .chats-users__info {
+  flex-grow: 1;
+  margin-left: 30px;
+  border-bottom: rgba(0, 0, 0, 0.2);
+}
+.screenChat .chats-users3 .chats-users__info .chats-users__info__name {
+  margin-bottom: 10px;
+  font-size: 22px;
+  font-weight: 600;
+}
+.screenChat .chats-users3 .chats-users__info .chats-users__info__text {
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.4);
+}
+.screenChat .chats-users .chats-users__icons,
+.screenChat .chats-users2 .chats-users__icons,
+.screenChat .chats-users3 .chats-users__icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-right: -20px;
+}
+.screenChat .chats-users .chats-users__icons .icons__time,
+.screenChat .chats-users2 .chats-users__icons .icons__time,
+.screenChat .chats-users3 .chats-users__icons .icons__time {
+  color: rgba(0, 0, 0, 0.4);
+  margin-bottom: 8px;
+  font-size: 12px;
+}
+.screenChat .chats-users .chats-users__icons .icons__icon,
+.screenChat .chats-users2 .chats-users__icons .icons__icon,
+.screenChat .chats-users3 .chats-users__icons .icons__icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 13px;
+  width: 25px;
+  height: 25px;
+  background-color: var(--colorPurple);
+  border-radius: 50%;
+}

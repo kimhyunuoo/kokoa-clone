@@ -1,0 +1,119 @@
+.message__bg {
+  background-color: #abc1d1;
+}
+.message-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 70px 25px;
+}
+.message-header .message-header__title {
+  font-size: 25px;
+  font-weight: 600;
+  flex-grow: 1;
+  text-align: center;
+  margin-left: 50px;
+}
+.message-header .message-header__search {
+  margin-right: 20px;
+}
+.message__years {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.message__years > span {
+  padding: 10px 15px;
+  font-size: 13px;
+  border-radius: 18px;
+  background-color: #92a4b2;
+  color: #fff;
+  margin-top: -20px;
+}
+.message__row {
+  display: flex;
+  padding: 15px;
+}
+.message__row .message__row__image {
+  background-image: url("/images/userImage4.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.message__row .message__row__content .message__content__name {
+  font-size: 13px;
+  font-weight: 400;
+  opacity: 0.8;
+  display: block;
+  margin-bottom: 3px;
+}
+.message__row__info {
+  display: flex;
+  align-items: flex-end;
+}
+.message__bubble {
+  background-color: #fff;
+  padding: 12px 10px;
+  border-radius: 0 13px 13px 13px;
+  margin-right: 4px;
+}
+.message__time {
+  opacity: 0.8;
+  font-size: 11px;
+  margin-bottom: 3px;
+}
+.message__row__right {
+  display: flex;
+  justify-content: flex-end;
+  padding: 15px;
+}
+.message__row__right .message__row__right__content {
+}
+.message__row__right__info {
+  display: flex;
+  align-items: flex-end;
+}
+.message__row__right__info .message__right__bubble {
+  background-color: var(--colorPurple);
+  color: #fff;
+  padding: 12px;
+  border-radius: 13px 0 13px 13px;
+  margin: 15px 4px 0;
+}
+.message__row__right__info .message__right__time {
+  opacity: 0.8;
+  font-size: 11px;
+  margin-bottom: 3px;
+}
+.textarea {
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  background-color: #fff;
+  width: 100%;
+  padding: 8px 1px;
+}
+.textarea .textarea__plus {
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.textarea .textarea__text {
+  flex-grow: 1;
+}
+.textarea .textarea__text input {
+  width: 99%;
+  box-sizing: border-box;
+  border: none;
+  border: 1px solid rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+  padding: 5px 10px;
+}
+.textarea .textarea__text input::placeholder {
+  padding: 3px;
+}

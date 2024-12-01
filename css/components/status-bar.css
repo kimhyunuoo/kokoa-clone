@@ -1,0 +1,38 @@
+/* STATUS BAR SECTION */
+.status-bar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 3px;
+}
+.status-bar__column {
+  width: 33%;
+}
+.status-bar__column:first-child span {
+  margin-right: 2px;
+  font-weight: 600;
+}
+.status-bar__column:nth-child(2) {
+  display: flex;
+  justify-content: center;
+}
+.status-bar__column:nth-child(2) span {
+  font-size: 19px;
+  font-weight: 700;
+}
+.status-bar__column:nth-child(3) {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.status-bar__column:nth-child(3) .fa-rotate {
+  margin-right: 5px;
+}
+.status-bar__column:nth-child(3) .fa-battery-three-quarters {
+  margin: 0 2px;
+}
+.status-bar__column:nth-child(3) span {
+  margin-bottom: 3px;
+}

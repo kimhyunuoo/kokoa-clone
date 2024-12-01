@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+@import "./common/reset.css";
+@import "./common/variable.css";
+
+/* Components */
+@import "./components/status-bar.css";
+@import "./components/nav-bar.css";
+@import "./components/screen-header.css";
+@import "/css/components/no-mobile.css";
+
+/* Screens */
+@import "./screens/loginform.css";
+@import "./screens/friends.css";
+@import "./screens/chats.css";
+@import "./screens/find.css";
+@import "./screens/more.css";
+@import "/css/screens/setting.css";
+@import "/css/screens/massage.css";
+
+/* COMMON */
+body {
+  color: #2e363e;
+  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}

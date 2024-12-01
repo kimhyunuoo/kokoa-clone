@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="kr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Disco Friend Screen</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <script
+      defer
+      src="https://kit.fontawesome.com/51ee0fa9b5.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- STATUS BAR -->
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>LG U<sup>+</sup></span>
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>23:06</span>
+      </div>
+      <div class="status-bar__column">
+        <i class="fa-solid fa-rotate"></i>
+        <span>80%</span>
+        <i class="fa-solid fa-battery-three-quarters fa-xl"></i>
+        <i class="fa-solid fa-bolt"></i>
+      </div>
+    </div>
+
+    <!-- Find HEADER -->
+    <header class="screen-header">
+      <h1 class="screen-header__title">My Profile</h1>
+      <div class="screen-header__icons">
+        <span>
+          <i class="fa-solid fa-pen-to-square fa-lg"></i>
+        </span>
+        <span>
+          <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+        </span>
+        <span>
+          <a href="setting.html">
+            <i class="fa-solid fa-gear fa-lg"></i>
+          </a>
+        </span>
+      </div>
+    </header>
+
+    <!-- My profile section -->
+    <div class="container-profile">
+      <div class="container-profile__group">
+        <div class="profileGroup__image"></div>
+        <div class="profileGroup__name">kim Hyun woo</div>
+        <div class="profileGroup__phone">
+          +01 321-4987-4113
+          <i class="fa-solid fa-circle-info fa-lg"></i>
+        </div>
+      </div>
+
+      <div class="comment">
+        <span>"안녕하세요, 개발자 김현우 입니다."</span>
+        <i class="fa-solid fa-comment fa-2x"></i>
+      </div>
+
+      <!-- 01 -->
+      <div class="profile__icons">
+        <div class="profile__icons__icon">
+          <i class="fa-solid fa-circle-user"></i>
+          <span>USER</span>
+        </div>
+        <div class="profile__icons__icon">
+          <i class="fa-brands fa-facebook"></i>
+          <span>Facebook</span>
+        </div>
+        <div class="profile__icons__icon">
+          <i class="fa-brands fa-github"></i>
+          <span>Github</span>
+        </div>
+      </div>
+      <!-- 02 -->
+      <div class="profile__icons">
+        <div class="profile__icons__icon">
+          <i class="fa-solid fa-pen-to-square"></i>
+          <span>Velog</span>
+        </div>
+        <div class="profile__icons__icon">
+          <i class="fa-solid fa-cloud"></i>
+          <span>Cloud</span>
+        </div>
+        <div class="profile__icons__icon">
+          <i class="fa-solid fa-envelope"></i>
+          <span>E-mail</span>
+        </div>
+      </div>
+      <!-- 03 -->
+      <div class="profile__icons">
+        <div class="profile__icons__icon">
+          <i class="fa-solid fa-location-dot"></i>
+          <span>Location</span>
+        </div>
+        <div class="profile__icons__icon">
+          <i class="fa-brands fa-discord"></i>
+          <span>Discord</span>
+        </div>
+        <div class="profile__icons__icon">
+          <i class="fa-solid fa-phone"></i>
+          <span>Phone</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- navigation -->
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friend.html">
+            <i class="fa-regular fa-user fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="chat.html">
+            <span class="nav__notice">1</span>
+            <i class="fa-solid fa-comment fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="find.html">
+            <i class="nav__search fa-solid fa-magnifying-glass fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="more.html">
+            <div class="nav__dot"></div>
+            <i class="fa-solid fa-ellipsis fa-2x"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <div id="no-mobile">
+      <span>Please set the screen to 500px.</span>
+    </div>
+  </body>
+</html>
